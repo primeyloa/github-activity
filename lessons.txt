@@ -3,3 +3,11 @@ That is the core program loop, using a while loop with match case logic to perfo
 And input is meant to be controlled, so there's one thing I must do:
 ===> Ensure that characters that I parse at each position of the string conforms to what I expect. 
 ===> Validate these 
+
+GithHub User Activity:
+----------------------
+I made a little mistake with the update: That's because I was appending the object to the file and then saving it, so there'd be a duplicate. Also, the data (tasks) are loaded as lists of objects because of how the data is loaded.
+It returns a list if empty or if the path isn't found. Then we know that from then on, we are working with a list of objects whenever we are updating, or manipulating the list.
+
+I had to learn about handling the rest requests, creating a virtual environment locally and installing the requests library that I used. 
+I also had to read github docs on how to handle the requests, the parameters and headers to use.

@@ -1,0 +1,5 @@
+I started by using a similar tactic I employed in the other project. 
+That is the core program loop, using a while loop with match case logic to perform actions based on input
+And input is meant to be controlled, so there's one thing I must do:
+===> Ensure that characters that I parse at each position of the string conforms to what I expect. 
+===> Validate these 
